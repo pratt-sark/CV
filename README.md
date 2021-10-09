@@ -7,7 +7,7 @@ There are a few reasons to add to this README file, otherwise the project title 
 
 1) The HTML Script in index.html is not properly indented (I'll explain why, in the following points).
 
-2) I had some alignment issues early on in the project, which I kind of 'duct-taped' using '<pre>' tag (which preserves alignment)
+2) I had some alignment issues early on in the project, which I kind of 'duct-taped' using 'pre' tag (which preserves alignment)
 leading to my script being poorly indented. It didn't occur to me then, that 'padding' was an actual option in Inline CSS.
 
 3) In my later scripting sessions, I used padding wherever possible, but still kept the earlier messy script. It was too tedious
