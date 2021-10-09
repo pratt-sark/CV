@@ -1,6 +1,7 @@
 # pratt-sark.github.io
 
 PROJECT TITLE : My Curriculum Vitae using HTML and CSS
+
 AUTHOR: Pratyay Sarkar
 
 There are a few reasons to add to this README file, otherwise the project title itself is self-explanatory.
