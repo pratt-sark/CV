@@ -19,11 +19,10 @@
         box-sizing: border-box;
         }
 
-        /* Create two equal columns that floats next to each other */
         .column {
         float: left;
         padding: 16px;
-        height: 950px; /* Should be removed. Only for demonstration */
+        height: 100%; 
         }
 
         .left{
@@ -40,7 +39,26 @@
         display: table;
         clear: both;
         }
+
+        /* Container for skill bars */
+        .container {
+          width: 50%; /* Full width */
+          background-color: #ddd; /* Grey background */
+          border-width: 1px;
+        }
+
+        .skills {
+          text-align: right; /* Right-align text */
+          padding-top: 7px; /* Add top padding */
+          padding-bottom: 7px; /* Add bottom padding */
+          color: white; /* White text color */
+        }
+
+        .Bengali {width: 100%; background-color: #04AA6D;} /* Green */
+        .English {width: 90%; background-color: #2196F3;} /* Blue */
+        .Hindi {width: 70%; background-color: orangered;}
         </style>
+        <script src="https://kit.fontawesome.com/6977453d21.js" crossorigin="anonymous"></script>
     </head>
 
     <body style="background-color: lightcyan;">
@@ -55,14 +73,14 @@
               text-align: justify;">
               <pre>
     
-     <u>SKILLS</u></pre>
+     <i class="fas fa-chalkboard-teacher" style="font-size: 16px;color: cornsilk;"></i> <u>SKILLS</u></pre>
               </h2>
               <p>
                 <h3>
                 <ul style="color: whitesmoke; 
                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
-                    <pre><li>  C Programming</li> <li>  C++ Programming</li> <li>  Java Programming</li> <li>  Python Programming</li> <li>  Data Structures</li> <li>  HTML</li>
-                    </pre>
+                    <pre>
+                      <li>  C Programming</li> <li>  C++ Programming</li> <li>  Java Programming</li> <li>  Python Programming</li> <li>  SQL</li> <li>  HTML</li> <li>  CSS</li> <li>  MATLAB</li>                    </pre>
                 </ul>
                 </h3>
             </p>
@@ -70,45 +88,72 @@
             <h2 style="color: gold; 
               font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
               text-align: justify;">
-            <pre>     
-     <u>LINKS</u></pre>
-                         </h2>
-                         <p>
-                           <h3>
-                           <ul style="color: whitesmoke; 
-                           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
-                               <pre><li style="color:mintcream"> LinkedIn: <a style="color:lightblue;" href=https://cutt.ly/BEXyglB>View my profile</a></u></li> <li> GitHub: <a style="color:lightblue;" href=https://cutt.ly/SEXynrb>View my Account</a></li>
-                           </ul>
-                           </h3>
-                       </p>
+            <pre>     <i class="fas fa-external-link-alt" style="padding-top: 10px;font-size: 16px;color: mintcream;"></i> <u>LINKS</u></pre>
+      </h2>  
+          <h3>
+            <ul style="color: whitesmoke; 
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+            <pre><p style="color:mintcream"> <i class="fab fa-linkedin" style="color: navy;text-shadow:1px 1px 1px lavenderblush;"></i> : <a style="color:lightblue;" href=https://cutt.ly/BEXyglB>View my LinkedIn</a></u></p><p> <i class="fab fa-github" style="padding-bottom: 13px;color: rgb(185, 32, 185);text-shadow:1px 1px 1px lavenderblush;"></i> : <a style="color:lightblue;" href=https://cutt.ly/SEXynrb>View my GitHub</a></p></pre>
+            </ul>
+            </h3>
+        
             <hr>
             <h2 style="color: greenyellow; 
               font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
               text-align: justify;">
             <pre>     
-     <u>PERSONAL DETAILS</u></pre>
+    <i class="fas fa-user-circle" style="font-size: 16px;color: cornsilk;"></i> <u>PERSONAL DETAILS</u></pre>
                          </h2>
                          <p>
                            <h3>
                            <ul style="color: whitesmoke; 
                            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
-                               <pre><li style="color:mintcream"> Date of Birth: 09-12-2000</li> <li style="padding-top: 2px;">Nationality: Indian</li></pre>
+                               <pre><p style="padding-top: 2px;padding-bottom: 15px;"><i class="fas fa-edit" style="font-size: 16px;color: red;text-shadow:2px 2px 2px wheat;"></i> Name : Pratyay Sarkar</p><p style="color:mintcream"><i class="far fa-calendar-alt" style="font-size: 16px;color: orange;text-shadow:2px 2px 2px wheat;"></i> Date of Birth: 09-12-2000</p><p style="padding-top: 2px;padding-top: 10px;padding-bottom: 20px;"><i class="fas fa-globe-asia" style="font-size: 16px;color: dodgerblue;text-shadow:2px 2px 2px wheat;"></i> Nationality: Indian</p></pre>
                            </h3>
                        </p>
+            <hr>
+            <h2 style="color: gold; 
+              font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+              text-align: justify;">
+            <pre>     <i class="fas fa-star-half-alt" style="padding-top: 13px;font-size: 16px; color: cornsilk;"></i> <u>HOBBIES</u></pre>
+                         </h2>
+                         <p>
+                           <h4>
+                           <p style="color: whitesmoke; 
+                           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                          <p style="color:mintcream;padding-top: 2px;padding-bottom: 2px;"><i class="fas fa-book-open" style="padding-left: 37px;padding-right: 5px;font-size: 16px;color: orangered;"></i> Reading Books</p>
+                          <p style="color:mintcream"><img src="piano.png" height="17" width="60" style="padding-left: 37px; padding-right: 5px;"> Playing Keyboard</p>
+                          <p style="color:mintcream;padding-top: 2px;padding-bottom: 2px;"><i class="fas fa-gamepad" style="padding-left: 37px;padding-right: 5px;font-size: 16px;color: chartreuse;"></i> Gaming</p>
+                          <p style="color:mintcream;padding-top: 2px;padding-bottom: 2px;"><i class="fas fa-edit" style="padding-left: 37px;padding-right: 5px;font-size: 16px;color: orchid;text-shadow:2px 2px 2px lavenderblush;"></i> Writing</p>
+                          <p style="color:mintcream;padding-top: 2px;padding-bottom: 20px;"><i class="fas fa-headphones-alt" style="padding-left: 37px;padding-right: 5px;font-size: 16px;color: blue;"></i> Listening to Music</p>
+                          <p>
+                          </h4>
+                       </p>
+            <hr>
+            <h2 style="color: greenyellow; 
+              font-family:Verdana, Geneva, Tahoma, sans-serif;
+              text-align: justify;">
+            <pre>     
+    <i class="fas fa-object-group" style="font-size: 16px; color: cornsilk;"></i> <u>PROJECTS</u></pre>
+            </h2>
+            <p style="color:mintcream;padding-top: 2px;padding-bottom: 2px;"><i class="far fa-file-code" style="padding-left: 35px;padding-right: 7px;font-size: 16px;color: deeppink;"></i>Store Account Management System</p>
+            <p style="color:mintcream;padding-top: 2px;padding-bottom: 2px;"><i class="far fa-file-pdf" style="padding-left: 35px;padding-right: 7px;font-size: 16px;color: maroon;"></i><a href="https://drive.google.com/file/d/1sPDkGWuIlm0CxckC0t2c8yLEE4E-f7pH/view?usp=sharing">Click here to view SRS</a></p>
             </div>
              
+
+            <!--Right Column starts-->
             <div class="column right" style="background-color:honeydew;column-span: unset;">
               <pre><h2 style="font-size:x-large;text-align: justify;
               font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
-    Career Objective</h2></pre>
+    Career Objective  <i class="fas fa-chart-line"></i> </h2></pre>
               <hr>
-              <p><ul><li style="font-size: large; text-align: justify;padding-top: 10px;padding-bottom: 15px;">
-              To secure a responsible career oppurtunity to fully utilize my training and<br>
-              skills, while making a significant contribution to the success of the company.</li></ul></p>
+              <p style="font-size: large; text-align:left;padding-left: 27px;padding-top: 10px;padding-bottom: 10px;">
+              <i class="fas fa-compass" style="padding-right: 10px;"></i>To secure a responsible career oppurtunity to fully utilize my training and<br>
+              skills, while making a significant contribution to the success of the company.</p>
 
               <pre><h2 style="font-size:x-large;text-align: justify;
                 font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
-    Educational Qualifications</h2></pre>
+    Educational Qualifications  <i class="fas fa-graduation-cap"></i> </h2></pre>
                 <hr>
                 <p>
                   <table style="padding-left: 15px;">
@@ -129,8 +174,55 @@
                     <td style="padding-left: 10px;">2017</td><td>94.60%</td></tr>
                   </table>
                 </p>
-            </div>
-            
-          </div>
+                <pre><h2 style="padding-top: 20px;font-size:x-large;text-align: justify;
+                  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+    Contact Details  <i class="fas fa-comment-dots"></i> </h2></pre>
+                  <hr>
+                  <pre style="font-size:large;">    <i class="fas fa-envelope" style="font-size:20px; padding-top: 7px; text-shadow:2px 2px 2px white;"></i> : <a href="mailto:pratyay2sarkar@gmail.com">pratyay2sarkar@gmail.com</a></pre>
+                  <pre style="font-size:large;">    <i class="fas fa-address-card" style="font-size:20px; padding-top: 6px; text-shadow:2px 2px 2px white;"></i> : <b style ="color: rgb(37, 47, 50);">210 A/2, Kalicharan Ghosh Road, Sinthee, Kolkata - 700050, West Bengal</b></pre>
+                  <pre style="font-size:large;">    <i class="fas fa-phone-alt" style="font-size:20px; padding-top: 6px; text-shadow:2px 2px 2px white;"></i> : <b style ="color: rgb(37, 37, 39);">+918820305550</b></pre>
+              <pre><h2 style="padding-top: 20px;font-size:x-large;text-align: justify;
+                    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+    Languages Known  <i class="fas fa-language"></i> </h2></pre>
+              <hr>
+              <div style="padding-left: 30px;">
+              <p style="padding-left: 7px; padding-top: 0px;"><h4>Bengali</h4></p>
+              <div class="container">
+                <div class="skills Bengali"></div>
+              </div>
+              <p style="padding-left: 7px; padding-top: 2px;"><h4>English</h4></p>
+              <div class="container">
+                <div class="skills English"></div>
+              </div>
+              <p style="padding-left: 7px; padding-top: 2px;"><h4>Hindi</h4></p>
+              <div class="container">
+                <div class="skills Hindi"></div>
+              </div>
+              </div>
+              <pre><h2 style="padding-top: 24px;font-size:x-large;text-align: justify;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+  Industrial Training : Workshops/Courses  <i class="fas fa-laptop-code"></i> </h2></pre>
+              <hr>
+              <p style="text-align: left;padding-left: 20px;padding-top: 12px;padding: bottom 3px;font-size: medium;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"><i class="fas fa-check-circle"></i>
+              <strong>Application of Python in Big Data, Natural Language Processing and Social Network<br> Analysis</strong> by <em>IEEE Computational Intelligence Society</em> (12th to 16th February, 2019)</p>
+              <p style="text-align: left;padding-left: 20px;padding-top: 8px;padding-bottom:8px;font-size: medium;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"><i class="fas fa-check-circle"></i>
+              <strong>Introduction to Soft skills</strong> by <em>TCS iON </em> (28th September to 5th October, 2021)</p>
+              
+  <h2 style="padding-left: 18px;padding-top: 24px;font-size:x-large;text-align: justify;
+              font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+              Extracurricular Activities <i class="fas fa-walking" style="padding-left: 5px;"></i></h2>
+              <hr>
+              <p style="text-align: left;font-size: medium;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+              padding-left: 19px;padding-top: 12px;"><i class="far fa-futbol" style="padding-right: 2px;"></i><strong> Football : </strong>I have received coaching in Football
+              for 3 years and play the sport to this day.</p>
+              <p style="text-align: left;font-size: medium;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+              padding-left: 19px;padding-top: 8px;"><i class="fas fa-campground" style="padding-right: 2px;"></i><strong> Camps : </strong>I have attended Nature Study and Adventure Camps
+              on multiple occassions and<br> learnt the basics of survival and observation of nature.</p>
+  <!--<h2 style="padding-left: 18px;padding-top: 24px;font-size:x-large;text-align: justify;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+            Projects <i class="fas fa-object-group" style="padding-left: 5px;"></i></h2>
+            <hr>-->
+              </div> <!--inner right column-->
+          </div> <!--outer row-->
     </body>
 </html>
