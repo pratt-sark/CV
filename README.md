@@ -21,6 +21,8 @@ wasn't aware of (in the period of time I invested in).
 5) I used some icons from a website: www.fontawesome.com . It has a really massive collection of icons ready to be used in a webpage
 with just a few lines of script! Their paid version offers much more options, but the free one is a gold-mine nevertheless.
 
+6) This webpage is BEST VIEWED ON A PC. It is NOT OPTIMIZED FOR MOBILES (not even after turning on Desktop site).
+
 And in case anyone is interested:
 Text Editor Used: VS Code (aided by a few HTML and CSS extensions, makes life much easier)
 
