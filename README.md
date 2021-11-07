@@ -12,7 +12,7 @@ There are a few reasons to add to this README file, otherwise the project title 
 leading to my script being poorly indented. It didn't occur to me then, that 'padding' was an actual option in Inline CSS.
 
 3) In my later scripting sessions, I used padding wherever possible, but still kept the earlier messy script. It was too tedious
-work to go back and fix my unaligned script with conventional techniques. However, THE WEBSITE IS AS IT SHOULD BE. In other words,
+work to go back and fix my unaligned script with conventional techniques. However, THE WEBPAGE IS AS IT SHOULD BE. In other words,
 I followed the saying "If it works, it works!" :)
 
 4) I am not fully aware of each CSS Styling used in this project, as I took liberty to surf the net for some solutions I just 
