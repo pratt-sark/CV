@@ -1,4 +1,4 @@
-# pratt-sark.github.io
+# CV
 
 PROJECT TITLE : My Curriculum Vitae using HTML and CSS
 
